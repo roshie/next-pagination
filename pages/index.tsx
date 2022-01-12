@@ -43,7 +43,7 @@ const index = ({ comments, page, totalRecords }: { comments: any, page: number, 
             </div>
           </Link>
         }
-        <Link href={isLastPage() ? window.location.href : "/?page=" + (Number(page) + 1)}>
+        <Link href={isLastPage() ? "/?page=" + page : "/?page=" + (Number(page) + 1)}>
           <div className={isLastPage() ? styles.disabled : styles.box}>❯</div>
         </Link>
       </>

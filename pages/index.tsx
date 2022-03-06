@@ -67,8 +67,8 @@ const index = ({ comments, page, totalRecords }: { comments: any, page: number, 
         <h1 className={styles.title}>
           Pagination.
         </h1>
-        <p>
-          Uses <a href="https://jsonplaceholder.typicode.com/">JSONPlaceholder</a>
+        <p style={{ display: 'flex', alignItems: 'center' }}>
+          <h3>{"{ "}&nbsp;</h3> Uses <a href="https://jsonplaceholder.typicode.com/">JSONPlaceholder</a><h3>&nbsp;{" }"}</h3>
         </p>
 
         {/* Pagination Buttons */}
